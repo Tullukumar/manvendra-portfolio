@@ -8,7 +8,7 @@ function VisitorCounter() {
     const recordVisit = async () => {
       try {
         const response = await fetch(
-          "http://localhost:5000/api/visitors/visit",
+          "https://manvendra-portfolio-api.onrender.com/api/visitors/visit",
           {
             method: "POST",
           }
